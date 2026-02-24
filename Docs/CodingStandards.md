@@ -1,3 +1,5 @@
+[English](CodingStandards.md) | [简体中文](CodingStandards.zh-Hans.md)
+
 # Coding Standards
 
 ## Table of Contents

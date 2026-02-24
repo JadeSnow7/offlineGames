@@ -1,3 +1,5 @@
+[English](ModuleGuide.md) | [简体中文](ModuleGuide.zh-Hans.md)
+
 # Module Guide: Adding a New Game
 
 This guide walks through creating a new game module from scratch, using the project's TCA-style architecture. Every game is a self-contained Swift Package under `Packages/` that plugs into the shared engine.

@@ -1,3 +1,5 @@
+[English](MetalPipeline.md) | [简体中文](MetalPipeline.zh-Hans.md)
+
 # Metal Rendering Pipeline
 
 This document covers the Metal GPU rendering architecture used by action-oriented games (Snake, Breakout) in the project. Grid-based games (Minesweeper, Memory Match) use SpriteKit instead.

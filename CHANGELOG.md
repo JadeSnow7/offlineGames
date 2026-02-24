@@ -1,3 +1,5 @@
+[English](CHANGELOG.md) | [简体中文](CHANGELOG.zh-Hans.md)
+
 # Changelog
 
 All notable changes to this project will be documented in this file.

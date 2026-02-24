@@ -1,3 +1,5 @@
+[English](IPConsiderations.md) | [简体中文](IPConsiderations.zh-Hans.md)
+
 # IP Considerations
 
 This document analyzes the intellectual property landscape for each game in the Offline Games collection. It covers game mechanic legality, trade dress avoidance, naming strategy, and asset originality requirements.

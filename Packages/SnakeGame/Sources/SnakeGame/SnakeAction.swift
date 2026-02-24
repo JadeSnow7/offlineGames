@@ -10,6 +10,8 @@ public enum SnakeAction: Sendable {
     case start
     /// Pause the game.
     case pause
+    /// Resume a paused game.
+    case resume
     /// Reset to initial state.
     case reset
 }

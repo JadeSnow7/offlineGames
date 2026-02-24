@@ -1,3 +1,5 @@
+[English](AppStoreChecklist.md) | [简体中文](AppStoreChecklist.zh-Hans.md)
+
 # App Store Submission Checklist
 
 A comprehensive checklist for submitting the Offline Games app to the Apple App Store. Covers metadata, assets, compliance, testing, and common rejection reasons.

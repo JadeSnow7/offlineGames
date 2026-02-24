@@ -4,7 +4,9 @@ public actor GameRegistry {
     /// All registered game definitions.
     public private(set) var games: [GameDefinition] = []
 
-    public init() {}
+    public init(games: [GameDefinition] = []) {
+        self.games = games
+    }
 
     /// Register a game definition.
     public func register(_ game: GameDefinition) {
@@ -14,6 +16,11 @@ public actor GameRegistry {
     /// All registered metadata, sorted by display name.
     public var allMetadata: [GameMetadata] {
         games.map(\.metadata).sorted { $0.displayName < $1.displayName }
+    }
+
+    /// All game definitions sorted by display name.
+    public func allGames() -> [GameDefinition] {
+        games.sorted { $0.metadata.displayName < $1.metadata.displayName }
     }
 
     /// Look up a game definition by ID.

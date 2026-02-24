@@ -1,5 +1,13 @@
 import Foundation
 
+/// Naming conventions for high score persistence keys.
+public enum HighScoreKey {
+    /// Standard key namespace for per-session scores by game.
+    public static func session(gameID: String) -> String {
+        "session.\(gameID)"
+    }
+}
+
 /// Actor that manages persistent high scores using UserDefaults.
 public actor HighScoreStore {
     private let defaults: UserDefaults

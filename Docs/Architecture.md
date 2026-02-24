@@ -1,3 +1,5 @@
+[English](Architecture.md) | [简体中文](Architecture.zh-Hans.md)
+
 # Architecture
 
 ## Table of Contents

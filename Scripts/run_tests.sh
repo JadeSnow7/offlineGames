@@ -7,10 +7,18 @@ PACKAGES_DIR="$ROOT_DIR/Packages"
 
 echo "=== Running tests for all packages ==="
 
-# Packages that can be tested with swift test (pure Swift, no device-only frameworks)
+# Packages that can be tested with `swift test`.
 TESTABLE_PACKAGES=(
     "CoreEngine"
     "GameCatalog"
+    "GameUI"
+    "SnakeGame"
+    "BlockPuzzle"
+    "BreakoutGame"
+    "CardDuel"
+    "MinesweeperGame"
+    "MemoryMatch"
+    "ReactionTap"
     "CppCore"
 )
 
@@ -37,19 +45,12 @@ echo "=== Test Summary ==="
 echo "  Passed: $PASS"
 echo "  Failed: $FAIL"
 
-# Packages requiring iOS simulator (Metal, SpriteKit, UIKit, SwiftUI)
+# Packages requiring Xcode/iOS simulator for full runtime validation.
 echo ""
 echo "=== Skipped (require iOS Simulator — use Xcode) ==="
 SIMULATOR_PACKAGES=(
     "MetalRenderer"
     "SpriteKitRenderer"
-    "GameUI"
-    "SnakeGame"
-    "BlockPuzzle"
-    "BreakoutGame"
-    "MinesweeperGame"
-    "MemoryMatch"
-    "ReactionTap"
 )
 for pkg in "${SIMULATOR_PACKAGES[@]}"; do
     echo "  - $pkg"

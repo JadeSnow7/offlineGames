@@ -7,5 +7,6 @@ public enum BreakoutAction: Sendable {
     case launch
     case start
     case pause
+    case resume
     case reset
 }

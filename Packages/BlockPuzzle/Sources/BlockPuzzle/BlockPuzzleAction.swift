@@ -10,5 +10,6 @@ public enum BlockPuzzleAction: Sendable {
     case hardDrop
     case start
     case pause
+    case resume
     case reset
 }

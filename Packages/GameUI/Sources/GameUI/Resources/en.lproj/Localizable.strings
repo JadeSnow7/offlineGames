@@ -1,0 +1,110 @@
+"app.title" = "Offline Games";
+"navigation.games.title" = "Games";
+"language.menu.title" = "Language";
+"language.option.system" = "System";
+"language.option.english" = "English";
+"language.option.zhHans" = "Simplified Chinese";
+
+"catalog.gameUnavailable" = "Game unavailable.";
+
+"session.score" = "Score";
+"session.best" = "Best";
+"session.pause" = "Pause";
+"session.resume" = "Resume";
+"session.restart" = "Restart";
+"session.exit" = "Exit";
+"session.settings.title" = "Settings";
+"session.settings.sound" = "Sound";
+"session.settings.haptics" = "Haptics";
+"session.gameOver.title" = "Game Over";
+"session.gameOver.score" = "Score";
+"session.gameOver.best" = "Best";
+"session.gameOver.playAgain" = "Play Again";
+"session.gameOver.backToGames" = "Back to Games";
+
+"game.snake.name" = "Snake";
+"game.snake.description" = "Classic snake with score chase.";
+"game.snake.controls.up" = "Up";
+"game.snake.controls.down" = "Down";
+"game.snake.controls.left" = "Left";
+"game.snake.controls.right" = "Right";
+
+"game.blockPuzzle.name" = "Block Puzzle";
+"game.blockPuzzle.description" = "Drop, rotate, and clear lines.";
+"game.blockPuzzle.controls.left" = "Left";
+"game.blockPuzzle.controls.right" = "Right";
+"game.blockPuzzle.controls.rotate" = "Rotate";
+"game.blockPuzzle.controls.softDrop" = "Soft Drop";
+"game.blockPuzzle.controls.hardDrop" = "Hard Drop";
+
+"game.breakout.name" = "Breakout";
+"game.breakout.description" = "Break every brick and protect your lives.";
+"game.breakout.controls.launch" = "Launch";
+"game.breakout.lives" = "Lives";
+
+"game.minesweeper.name" = "Minesweeper";
+"game.minesweeper.description" = "Reveal all safe cells without hitting mines.";
+"game.minesweeper.controls.flagMode" = "Flag Mode";
+"game.minesweeper.controls.revealMode" = "Reveal Mode";
+"game.minesweeper.flags" = "Flags";
+"game.minesweeper.cell.hidden" = "Hidden cell";
+"game.minesweeper.cell.flagged" = "Flagged cell";
+"game.minesweeper.cell.mine" = "Mine";
+"game.minesweeper.cell.empty" = "Empty cell";
+
+"game.memoryMatch.name" = "Memory Match";
+"game.memoryMatch.description" = "Flip and match every pair.";
+"game.memoryMatch.moves" = "Moves";
+
+"game.reactionTap.name" = "Reaction Tap";
+"game.reactionTap.description" = "Tap right when the panel turns green.";
+"game.reactionTap.round" = "Round";
+"game.reactionTap.phase.waiting" = "Tap start to begin.";
+"game.reactionTap.phase.ready" = "Wait for green, don't tap early.";
+"game.reactionTap.phase.stimulus" = "Tap now!";
+"game.reactionTap.phase.tooEarly" = "Too early.";
+"game.reactionTap.phase.result" = "Reaction time";
+"game.reactionTap.phase.finished" = "Session finished.";
+"game.reactionTap.controls.start" = "Start";
+"game.reactionTap.controls.tap" = "Tap";
+"game.reactionTap.controls.next" = "Next Round";
+"game.reactionTap.controls.restart" = "Restart";
+
+"game.cardDuel.name" = "Card Duel";
+"game.cardDuel.description" = "Build a board and defeat the AI hero.";
+"game.cardDuel.player" = "Player";
+"game.cardDuel.ai" = "AI";
+"game.cardDuel.hp" = "HP";
+"game.cardDuel.deck" = "Deck";
+"game.cardDuel.turn" = "Turn";
+"game.cardDuel.mana" = "Mana";
+"game.cardDuel.hand" = "Your Hand";
+"game.cardDuel.board" = "Board";
+"game.cardDuel.board.full" = "Board is full (7/7)";
+"game.cardDuel.insufficient.mana" = "Not enough mana";
+"game.cardDuel.log" = "Battle Log";
+"game.cardDuel.log.empty" = "Play a card to start the duel.";
+"game.cardDuel.waiting.ai" = "AI is thinking...";
+"game.cardDuel.waiting.pause" = "Paused";
+"game.cardDuel.endTurn" = "End Turn";
+"game.cardDuel.surrender" = "Surrender";
+
+"keyword.taunt" = "Taunt";
+"keyword.rush" = "Rush";
+"keyword.charge" = "Charge";
+"keyword.divineShield" = "Divine Shield";
+
+"card.scout" = "Scout";
+"card.squire" = "Squire";
+"card.guardian" = "Guardian";
+"card.charger" = "Charger";
+"card.knight" = "Knight";
+"card.paladin" = "Paladin";
+"card.berserker" = "Berserker";
+"card.dragon" = "Dragon";
+"card.titan" = "Titan";
+"card.fireball" = "Fireball";
+"card.heal" = "Heal";
+"card.nova" = "Nova";
+"card.wisdom" = "Wisdom";
+

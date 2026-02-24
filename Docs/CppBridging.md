@@ -1,3 +1,5 @@
+[English](CppBridging.md) | [简体中文](CppBridging.zh-Hans.md)
+
 # C++ Bridging Guide
 
 This document covers how C++ code is integrated into the project via Swift's native C++ interoperability, the `CppCore` package architecture, and how to add new C++ functionality.

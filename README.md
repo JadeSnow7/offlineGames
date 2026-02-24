@@ -1,3 +1,5 @@
+[English](README.md) | [简体中文](README.zh-Hans.md)
+
 # Offline Games
 
 A collection of classic and original offline mini-games for iOS, built with SwiftUI, Metal, and SpriteKit.
@@ -80,6 +82,7 @@ See [Docs/Architecture.md](Docs/Architecture.md) for full details.
 - [Localization](Docs/Localization.md) — Localization guide
 - [IP Considerations](Docs/IPConsiderations.md) — Intellectual property analysis
 - [App Store Checklist](Docs/AppStoreChecklist.md) — App Store submission checklist
+- [App Store Launch Copy](Docs/AppStoreLaunchCopy.md) — Ready-to-use US launch metadata copy
 
 ## License
 

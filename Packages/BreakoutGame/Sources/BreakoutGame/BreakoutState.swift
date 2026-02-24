@@ -11,6 +11,9 @@ public struct BreakoutState: GameState, Equatable, Sendable {
     /// Remaining bricks.
     public var bricks: [Brick]
 
+    /// Whether the ball has been launched from paddle.
+    public var isBallLaunched: Bool
+
     /// Lives remaining.
     public var lives: Int
 
@@ -26,11 +29,27 @@ public struct BreakoutState: GameState, Equatable, Sendable {
     public init() {
         self.paddleX = 0.5
         self.ball = Ball(x: 0.5, y: 0.8, vx: 0.3, vy: -0.4)
-        self.bricks = []
+        self.bricks = BreakoutState.makeInitialBricks()
+        self.isBallLaunched = false
         self.lives = 3
         self.score = 0
         self.isRunning = false
         self.isGameOver = false
+    }
+
+    private static func makeInitialBricks(rows: Int = 5, cols: Int = 8) -> [Brick] {
+        var bricks: [Brick] = []
+        bricks.reserveCapacity(rows * cols)
+        var id = 0
+
+        for row in 0..<rows {
+            for col in 0..<cols {
+                bricks.append(Brick(id: id, row: row, col: col, hitPoints: 1))
+                id += 1
+            }
+        }
+
+        return bricks
     }
 }
 

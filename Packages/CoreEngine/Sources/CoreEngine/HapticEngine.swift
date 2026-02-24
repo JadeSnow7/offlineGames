@@ -1,8 +1,9 @@
 #if canImport(UIKit)
 import UIKit
 
-/// Actor that manages haptic feedback.
-public actor HapticEngine {
+/// Main-thread haptic feedback engine.
+@MainActor
+public final class HapticEngine {
     private let impactLight = UIImpactFeedbackGenerator(style: .light)
     private let impactMedium = UIImpactFeedbackGenerator(style: .medium)
     private let impactHeavy = UIImpactFeedbackGenerator(style: .heavy)
@@ -41,8 +42,9 @@ public actor HapticEngine {
     }
 }
 #else
-/// Stub HapticEngine for platforms without UIKit.
-public actor HapticEngine {
+/// Stub haptic feedback engine for platforms without UIKit.
+@MainActor
+public final class HapticEngine {
     public init() {}
     public func lightImpact() {}
     public func mediumImpact() {}

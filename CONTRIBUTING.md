@@ -1,3 +1,5 @@
+[English](CONTRIBUTING.md) | [简体中文](CONTRIBUTING.zh-Hans.md)
+
 # Contributing
 
 Thank you for your interest in contributing to Offline Games!

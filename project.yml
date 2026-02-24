@@ -1,0 +1,71 @@
+name: OfflineGames
+options:
+  minimumXcodeGenVersion: 2.44.1
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.huaodong.offlinegames
+    PRODUCT_NAME: Offline Games
+    MARKETING_VERSION: 1.0.0
+    CURRENT_PROJECT_VERSION: 1
+    SWIFT_VERSION: 6.0
+    INFOPLIST_FILE: App/Info.plist
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+configs:
+  Debug: debug
+  Release: release
+packages:
+  CoreEngine:
+    path: Packages/CoreEngine
+  GameCatalog:
+    path: Packages/GameCatalog
+  GameUI:
+    path: Packages/GameUI
+  SnakeGame:
+    path: Packages/SnakeGame
+  BlockPuzzle:
+    path: Packages/BlockPuzzle
+  BreakoutGame:
+    path: Packages/BreakoutGame
+  CardDuel:
+    path: Packages/CardDuel
+  MinesweeperGame:
+    path: Packages/MinesweeperGame
+  MemoryMatch:
+    path: Packages/MemoryMatch
+  ReactionTap:
+    path: Packages/ReactionTap
+  CppCore:
+    path: Packages/CppCore
+targets:
+  OfflineGames:
+    type: application
+    platform: iOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: App
+        includes:
+          - "*.swift"
+    resources:
+      - path: App/Assets.xcassets
+    dependencies:
+      - package: CoreEngine
+      - package: GameCatalog
+      - package: GameUI
+      - package: SnakeGame
+      - package: BlockPuzzle
+      - package: BreakoutGame
+      - package: CardDuel
+      - package: MinesweeperGame
+      - package: MemoryMatch
+      - package: ReactionTap
+      - package: CppCore
+schemes:
+  OfflineGames:
+    build:
+      targets:
+        OfflineGames: all
+    run:
+      config: Debug
+    archive:
+      config: Release

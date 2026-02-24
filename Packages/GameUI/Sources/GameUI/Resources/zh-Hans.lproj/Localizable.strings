@@ -1,0 +1,110 @@
+"app.title" = "离线游戏";
+"navigation.games.title" = "游戏";
+"language.menu.title" = "语言";
+"language.option.system" = "跟随系统";
+"language.option.english" = "英语";
+"language.option.zhHans" = "简体中文";
+
+"catalog.gameUnavailable" = "游戏当前不可用。";
+
+"session.score" = "分数";
+"session.best" = "最高分";
+"session.pause" = "暂停";
+"session.resume" = "继续";
+"session.restart" = "重开";
+"session.exit" = "退出";
+"session.settings.title" = "设置";
+"session.settings.sound" = "音效";
+"session.settings.haptics" = "触感";
+"session.gameOver.title" = "游戏结束";
+"session.gameOver.score" = "本局分数";
+"session.gameOver.best" = "最高分";
+"session.gameOver.playAgain" = "再来一局";
+"session.gameOver.backToGames" = "返回目录";
+
+"game.snake.name" = "贪吃蛇";
+"game.snake.description" = "经典贪吃蛇，挑战更高分。";
+"game.snake.controls.up" = "上";
+"game.snake.controls.down" = "下";
+"game.snake.controls.left" = "左";
+"game.snake.controls.right" = "右";
+
+"game.blockPuzzle.name" = "方块拼图";
+"game.blockPuzzle.description" = "下落、旋转并消除整行。";
+"game.blockPuzzle.controls.left" = "左移";
+"game.blockPuzzle.controls.right" = "右移";
+"game.blockPuzzle.controls.rotate" = "旋转";
+"game.blockPuzzle.controls.softDrop" = "加速下落";
+"game.blockPuzzle.controls.hardDrop" = "直接落底";
+
+"game.breakout.name" = "打砖块";
+"game.breakout.description" = "击碎所有砖块并守住生命值。";
+"game.breakout.controls.launch" = "发射";
+"game.breakout.lives" = "生命";
+
+"game.minesweeper.name" = "扫雷";
+"game.minesweeper.description" = "揭开所有安全格，避开地雷。";
+"game.minesweeper.controls.flagMode" = "插旗模式";
+"game.minesweeper.controls.revealMode" = "揭示模式";
+"game.minesweeper.flags" = "旗子";
+"game.minesweeper.cell.hidden" = "未揭示格";
+"game.minesweeper.cell.flagged" = "已插旗格";
+"game.minesweeper.cell.mine" = "地雷";
+"game.minesweeper.cell.empty" = "空白格";
+
+"game.memoryMatch.name" = "记忆配对";
+"game.memoryMatch.description" = "翻牌并配对全部卡片。";
+"game.memoryMatch.moves" = "步数";
+
+"game.reactionTap.name" = "反应点击";
+"game.reactionTap.description" = "面板变绿时立刻点击。";
+"game.reactionTap.round" = "回合";
+"game.reactionTap.phase.waiting" = "点击开始。";
+"game.reactionTap.phase.ready" = "等待变绿，不要提前点。";
+"game.reactionTap.phase.stimulus" = "现在点击！";
+"game.reactionTap.phase.tooEarly" = "太早了。";
+"game.reactionTap.phase.result" = "反应时间";
+"game.reactionTap.phase.finished" = "本轮结束。";
+"game.reactionTap.controls.start" = "开始";
+"game.reactionTap.controls.tap" = "点击";
+"game.reactionTap.controls.next" = "下一回合";
+"game.reactionTap.controls.restart" = "重来";
+
+"game.cardDuel.name" = "卡牌对战";
+"game.cardDuel.description" = "构建战场，击败对手英雄。";
+"game.cardDuel.player" = "玩家";
+"game.cardDuel.ai" = "AI";
+"game.cardDuel.hp" = "生命";
+"game.cardDuel.deck" = "牌堆";
+"game.cardDuel.turn" = "回合";
+"game.cardDuel.mana" = "法力";
+"game.cardDuel.hand" = "手牌";
+"game.cardDuel.board" = "战场";
+"game.cardDuel.board.full" = "战场已满 (7/7)";
+"game.cardDuel.insufficient.mana" = "法力不足";
+"game.cardDuel.log" = "战斗日志";
+"game.cardDuel.log.empty" = "先出一张牌开始对战。";
+"game.cardDuel.waiting.ai" = "AI 思考中...";
+"game.cardDuel.waiting.pause" = "已暂停";
+"game.cardDuel.endTurn" = "结束回合";
+"game.cardDuel.surrender" = "投降";
+
+"keyword.taunt" = "嘲讽";
+"keyword.rush" = "突袭";
+"keyword.charge" = "冲锋";
+"keyword.divineShield" = "圣盾";
+
+"card.scout" = "侦察兵";
+"card.squire" = "侍从";
+"card.guardian" = "守卫";
+"card.charger" = "突击兵";
+"card.knight" = "骑士";
+"card.paladin" = "圣骑士";
+"card.berserker" = "狂战士";
+"card.dragon" = "巨龙";
+"card.titan" = "泰坦";
+"card.fireball" = "火球术";
+"card.heal" = "治愈术";
+"card.nova" = "新星爆";
+"card.wisdom" = "智慧";
+

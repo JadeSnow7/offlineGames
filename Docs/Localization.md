@@ -1,3 +1,5 @@
+[English](Localization.md) | [简体中文](Localization.zh-Hans.md)
+
 # Localization Guide
 
 This document describes the localization approach for the Offline Games app, including how to add new locales, naming conventions, testing strategies, and accessibility considerations.

@@ -20,6 +20,10 @@ build/
 *.dSYM.zip
 *.dSYM
 
+# Keep generated app project in repo
+!OfflineGames.xcodeproj/
+!OfflineGames.xcodeproj/**
+
 # Swift Package Manager
 .build/
 .swiftpm/

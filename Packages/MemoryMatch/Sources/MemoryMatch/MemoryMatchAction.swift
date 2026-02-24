@@ -4,5 +4,7 @@ public enum MemoryMatchAction: Sendable {
     case checkMatch
     case hideUnmatched
     case start
+    case pause
+    case resume
     case reset
 }

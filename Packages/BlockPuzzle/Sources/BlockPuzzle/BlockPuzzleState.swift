@@ -55,7 +55,7 @@ public struct BlockPuzzleState: GameState, Equatable, Sendable {
 /// A puzzle piece defined by relative cell offsets.
 public struct Piece: Equatable, Sendable {
     /// Cell offsets relative to pivot.
-    public let cells: [CellOffset]
+    public var cells: [CellOffset]
     /// Color index.
     public let colorIndex: Int
     /// Position on the grid.

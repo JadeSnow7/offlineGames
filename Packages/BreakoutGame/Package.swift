@@ -9,12 +9,13 @@ let package = Package(
     ],
     dependencies: [
         .package(path: "../CoreEngine"),
-        .package(path: "../GameUI")
+        .package(path: "../GameUI"),
+        .package(path: "../GameCatalog")
     ],
     targets: [
         .target(
             name: "BreakoutGame",
-            dependencies: ["CoreEngine", "GameUI"]
+            dependencies: ["CoreEngine", "GameUI", "GameCatalog"]
         ),
         .testTarget(
             name: "BreakoutGameTests",
